@@ -1,0 +1,18 @@
+{
+  "name": "groceries-store",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "publish": "npm run build && firebase deploy",
+    "cs": "prettier --write ."
+  },
+  "dependencies": {
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
+    "prettier": "^2.5.1",
+    "vite": "^1.0.0-rc.13"
+  }
+}
